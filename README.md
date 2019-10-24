@@ -2,7 +2,7 @@
 
 Are you adding dummy data from CSV-s using `medic-conf` and all your xml reports are attachment-less?
 Running this script will create and upload `content` xml attachments to _very roughly_ simulate the `model` XML resulting
-from submitting an Enketo XML form. It might even make the reports editable, granted the `form` doc itself exists its fields correspond to the report `fields`. 
+from submitting an Enketo XML form. It might even make the reports editable, granted the `form` doc itself exists and its fields correspond to the report `fields`. 
 
 ### Installation
 
@@ -27,4 +27,4 @@ npm run create
 
 This will update all reports in your DB that have `content_type === xml`, a `form` field and no `content` attachment. 
 Sentinel will process all these changes. If you want Sentinel to skip them, stop the service while the script is running,
- and update `_local/sentinel-meta-data.processed_seq` with the main db-s `update_seq` manually once execution is finished.
+and update `_local/sentinel-meta-data.processed_seq` with the main db-s `update_seq` manually once execution is finished.

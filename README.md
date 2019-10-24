@@ -2,7 +2,7 @@
 
 Are you adding dummy data from CSV-s using `medic-conf` and all your xml reports are attachment-less?
 Running this script will create and upload `content` xml attachments to _very roughly_ simulate the `model` XML resulting
-from submitting an Enketo XML form. It might even make the reports editable, granted the `form` doc itself exists it's fields correspond to the report `fields`. 
+from submitting an Enketo XML form. It might even make the reports editable, granted the `form` doc itself exists its fields correspond to the report `fields`. 
 
 ### Installation
 

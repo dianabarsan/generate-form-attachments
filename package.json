@@ -1,0 +1,12 @@
+{
+  "name": "create-form-attachments",
+  "version": "1.0.0",
+  "scripts": {
+    "create": "node src/index.js"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "xml-js": "^1.6.11"
+  }
+}
